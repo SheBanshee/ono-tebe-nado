@@ -2,59 +2,54 @@
     margin: 0;
     background-color: black;
     font-family: 'Raleway', sans-serif;
-
 }
 
-.header {
-    margin-bottom: 96px;
-}
 
 .container {
-    margin: 92px 24px;
     font-family: 'Raleway', sans-serif;
 }
 
 .header-line {
     display: flex;
     margin-right: 24px;
-}
-
-.nav {
-    padding-right: 36px;
-    padding-top: 44px;
+    width: 1052px;
+    height: 105px;
+    margin-top: 92px;
+    margin-left: 24px;
 }
 
 .nav-item {
     list-style-type: circle;
     display: flex;
-    font-weight: 400px;
-
+    margin-top: 44px;
 }
 
 .nav-list-text {
     text-decoration: none;
     color: black;
     font-size: 18px;
-    padding-right: 32px;
+    margin-right: 32px;
 }
 
 .nav-list-1 {
     color: black;
-    white-space: nowrap;
-    padding-right: 32px;
+    margin-right: 32px;
 }
 
 .nav-list-2 {
     color: black;
-    white-space: nowrap;
+    margin-right: 36px;
 }
 
 .phone {
-    padding-left: 184px;
     font-size: 18px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
+
+.number-text {
+    margin-left: 120px;
+}
+
 
 .number {
     color: black;
@@ -68,98 +63,116 @@
     margin-top: 0px;
 }
 
-
 .ono-tebe-nado {
+    width: 1000px;
+    height: 355px;
     font-family: 'Raleway', sans-serif;
-    font-size: 100px;
-    font-weight: 700;
-    position: absolute;
     text-transform: uppercase;
+    position: relative;
 }
 
 .ono-tebe-nado-list {
     list-style-type: none;
-    color: white;
-    z-index: 2;
-    position: relative;
-    margin-top: 135px;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-weight: 700;
+    position: absolute;
 }
 
 .ono {
-    padding-left: 50px;
-    margin-bottom: 20px;
     letter-spacing: 20px;
+    margin-top: 165px;
+    margin-right: 734px;
+}
+
+.on {
+    margin-left: 8px;
+}
+
+.letter-space {
+    margin-left: 44px;
 }
 
 .tebe {
-    padding-left: 336px;
-    margin-bottom: 20px;
+    padding-left: 286px;
     letter-spacing: 20px;
+    margin-right: 398px;
+}
+
+.teb {
+    margin-left: 19px;
 }
 
 .nado {
-    padding-left: 633px;
     letter-spacing: 20px;
+    margin-left: 585px;
 }
+
 
 .picture {
     background-color: #000;
     width: 1100px;
     height: 757px;
+    margin-top: 96px;
+    position: absolute;
+
 }
 
 .picture-flowers {
     width: 1100px;
     height: 757px;
     opacity: 60%;
+    position: absolute;
 }
 
 .auction-text {
     color: rgb(255, 255, 255);
-    font-family: 'Raleway', sans-serif;
     font-size: 22px;
     font-weight: 400;
     margin-left: 78px;
     text-transform: uppercase;
-    position: relative;
     z-index: 2;
     word-spacing: 15px;
-    margin-right: 385px;
-    margin-top: 147px;
+    margin-top: 763px;
+    position: absolute;
+    margin-right: 79px;
 }
 
 .btn {
     background: none;
     margin-left: 794px;
-    color: rgb(255, 255, 255);
-    position: absolute;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-size: 22px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     z-index: 2;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     width: 256px;
     height: 51px;
-    margin-top: -51px;
+    margin-top: 750px;
+    position: relative;
+}
+
+.lots {
+    width: 1052px;
+    height: 692px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .h-cards-1 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
-    margin-top: 179px;
     margin-left: 64px;
+    margin-top: 675px;
 }
 
 .cards-text-1 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 22px;
     text-transform: uppercase;
     position: absolute;
-    margin-top: 78px;
+    margin-top: 51px;
     margin-left: 64px;
     text-decoration: underline;
     color: white;
@@ -167,7 +180,6 @@
 }
 
 .cards-p-1 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 20px;
     position: absolute;
@@ -211,22 +223,20 @@
 .cards-text-2 {
     margin-left: 423px;
     position: absolute;
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 22px;
     color: white;
     text-decoration: underline;
     z-index: 2;
     text-transform: uppercase;
-    margin-top: 78px;
+    margin-top: 51px;
 }
 
 .cards-text-3 {
     margin-left: 423px;
     position: absolute;
     color: white;
-    margin-top: 182px;
-    font-family: 'Raleway', sans-serif;
+    margin-top: 155px;
     font-weight: 400;
     font-size: 20px;
     opacity: 90%;
@@ -250,14 +260,13 @@
 .cards-text-4 {
     margin-left: 782px;
     position: absolute;
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 22px;
     color: white;
     text-decoration: underline;
     z-index: 2;
     text-transform: uppercase;
-    margin-top: 78px;
+    margin-top: 51px;
 }
 
 .cards-text-5 {
@@ -265,7 +274,6 @@
     position: absolute;
     color: white;
     margin-top: 182px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 20px;
     opacity: 90%;
@@ -275,7 +283,6 @@
 .text-p {
     margin-left: 64px;
     margin-top: 620px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-decoration: underline;
@@ -293,6 +300,12 @@
     margin-top: 64px;
 }
 
+.about {
+    width: 1052px;
+    height: 595px;
+    font-family: 'Raleway', sans-serif;
+}
+
 .circle {
     margin-top: 81px;
     margin-left: 71px;
@@ -307,39 +320,35 @@
 }
 
 .about-h1 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 40px;
-    margin-left: 359px;
+    margin-left: 383px;
     text-transform: uppercase;
     margin-top: -133px;
 }
 
 .about-p-1 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    margin-left: 359px;
+    margin-left: 383px;
     margin-top: 100px;
 }
 
 .about-p-2 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    margin-left: 359px;
+    margin-left: 383px;
     margin-top: 24px;
 }
 
 .footer {
-    margin-top: 180px;
+    margin-top: 135px;
     display: flex;
-    margin-bottom: 88px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .footer-menu {
     font-size: 18px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     margin-left: -26px;
 }
@@ -367,7 +376,6 @@
 
 .footer-menu-1 {
     font-size: 18px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: black;
     text-decoration: none;
@@ -376,12 +384,12 @@
 .footer-menu-2 {
     color: black;
     font-size: 18px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
 
 .social-media {
-    margin-left: 185px;
+    margin-left: 176px;
+    margin-top: 10px;
 }
 
 .YouTube {
