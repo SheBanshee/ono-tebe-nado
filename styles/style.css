@@ -79,9 +79,9 @@
 }
 
 .ono-tebe-nado {
+    font-family: 'Raleway', sans-serif;
     width: 1000px;
     height: 355px;
-    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     position: relative;
 }
@@ -169,9 +169,9 @@
 }
 
 .lots {
+    font-family: 'Raleway', sans-serif;  
     width: 1052px;
     height: 692px;
-    font-family: 'Raleway', sans-serif;
 }
 
 .h-cards-1 {
@@ -315,9 +315,9 @@
 }
 
 .about {
-    width: 1052px;
-    height: 595px;
-    font-family: 'Raleway', sans-serif;
+   font-family: 'Raleway', sans-serif; 
+   width: 1052px;
+   height: 595px;
 }
 
 .circle {
@@ -356,9 +356,9 @@
 }
 
 .footer {
+    font-family: 'Raleway', sans-serif;
     margin-top: 135px;
     display: flex;
-    font-family: 'Raleway', sans-serif;
 }
 
 .footer-menu {
